@@ -20,8 +20,25 @@
     font-size: 1.8rem;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.1s;
 }
 
 .container_form form input:nth-child(4):hover{
     color:green;
+    border:0.1rem solid black
+}
+.container_form form button{
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    color: red;
+    border: none;
+    border: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+.container_form form button:hover{
+    transform: scale(2);
+    font-weight: bolder;
 }
