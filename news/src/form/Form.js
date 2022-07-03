@@ -36,11 +36,11 @@ const Form = ()=>{
 
         axios[method](url,noticias)
         .then((resp)=>{
-            alert(`${id?"Atualizado":"Cadastrado"}`)
+            alert(`${id?"Atualizado!":"Cadastrado!"}`)
             navigate("/")
         })
         .catch(()=>{
-            alert('erro no cadastro ou atualizae')
+            alert('Erro ao cadastrar ou atualizar')
         })
     } 
 
@@ -50,7 +50,7 @@ const Form = ()=>{
         .then((resp)=>{  
             alert("Excluido")
         })
-        .catch(()=>alert("Erro na excluir"))
+        .catch(()=>alert("Poster não informado!!"))
     }
   
     return(
