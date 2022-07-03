@@ -20,12 +20,13 @@
     font-size: 1.8rem;
     font-weight: bold;
     cursor: pointer;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 .container_form form input:nth-child(4):hover{
-    color:green;
-    border:0.1rem solid black
+    background-color:#008000;
+    color:#fff;
+    border: none;
 }
 .container_form form button{
     display: block;
