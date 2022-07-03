@@ -1,0 +1,8 @@
+.container_news{
+    display: flex;
+    justify-content: center;
+    gap:3rem;
+    width: 90rem;
+    flex-wrap: wrap;
+    padding: 2rem 0 ;
+}
