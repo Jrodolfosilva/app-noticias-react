@@ -2,6 +2,18 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: antiquewhite;
-    height: 8vh;
+    background-color:#c4170c;
+    height: 10vh;
+}
+.container_header a:first-child {
+    font-weight: bolder;
+    font-size: 3rem;
+    color:#ffff;
+}
+.container_header a:last-child {
+    display: block;
+    border-radius: 0.4rem;
+    padding: 0.2rem 2rem;
+    color:#fff;
+    background-color: #a6130a;
 }

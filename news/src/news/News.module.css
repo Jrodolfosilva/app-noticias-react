@@ -1,8 +1,29 @@
 .container_news{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap:3rem;
     width: 90rem;
-    flex-wrap: wrap;
     padding: 2rem 0 ;
+}
+
+.container_news input {
+    width: 40vw;
+    height: 4rem;
+    border: 0.1rem solid gray;
+    border-radius: 0.4rem;
+    padding: 0.2rem 3rem;
+    font-size: 1.8rem;
+}
+.container_news__diverro{
+    background-color: yellow;
+    border-radius: 0.4rem;
+    width: 40rem;
+    padding: 2rem;
+    text-align: center;
+}
+.container_news__msgerro{
+    color: red;
+    font-size: 1.6rem;
 }
